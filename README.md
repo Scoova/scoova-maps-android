@@ -9,7 +9,7 @@ Scoova map SDK for Android. Two things in one library:
    Native — perfect for `ImageView` loaders, OG share images on the server,
    PDF receipts, etc.
 
-Maven artifact: `info.scoo-va:maps:1.1.0`
+Maven artifact: `info.scoo-va:scoova-maps-android:1.1.3`
 
 ## Install
 
@@ -25,7 +25,7 @@ dependencyResolutionManagement {
 
 // build.gradle.kts
 dependencies {
-    implementation("info.scoo-va:maps:1.1.0")
+    implementation("info.scoo-va:scoova-maps-android:1.1.3")
 }
 ```
 
