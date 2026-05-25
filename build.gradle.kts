@@ -29,7 +29,7 @@ publishing {
             from(components["java"])
 
             groupId = project.group.toString()
-            artifactId = "maps"
+            artifactId = "scoova-maps-android"
             version = project.version.toString()
 
             pom {
