@@ -112,7 +112,7 @@ mapView.getMapAsync { map ->
 ### Static + style helpers
 - `staticMapUrl(opts)` — pure URL builder
 - `staticMapBytes(opts)` — blocking `ByteArray` fetcher
-- `styleUrl(styleName, opts)` — MapLibre-compatible style URL
+- `styleUrl(styleName, opts)` — Scoova-compatible style URL
 - `SCOOVA_DEFAULT_API_BASE`, `SCOOVA_DEFAULT_TILES_BASE`
 
 ## Tests

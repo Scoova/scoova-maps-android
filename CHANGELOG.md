@@ -10,7 +10,7 @@ project follows [Semantic Versioning](https://semver.org/).
   to drop into an `ImageView` loader or any HTML `<img>`.
 - `staticMapBytes(opts)` — blocking PNG fetcher (`HttpURLConnection`),
   forwards `Accept-Language` when a locale is provided.
-- `styleUrl(styleName, StyleUrlOptions)` — MapLibre-compatible style URL
+- `styleUrl(styleName, StyleUrlOptions)` — Scoova-compatible style URL
   builder that does not require an existing MapLibre `Style.Builder`.
 - `ScoovaMapDefaults.styleUrlForLocale(locale)` — helper that returns the
   canonical Scoova style URL with `?locale=…` appended.

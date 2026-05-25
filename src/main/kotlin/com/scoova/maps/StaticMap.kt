@@ -136,7 +136,7 @@ fun staticMapBytes(opts: StaticMapOptions): ByteArray {
 }
 
 /**
- * MapLibre-compatible style URL. Drop into
+ * Scoova-compatible style URL. Drop into
  * `Style.Builder().fromUri(styleUrl("scoova-dark", StyleUrlOptions(apiKey = "...")))`.
  */
 fun styleUrl(styleName: String, opts: StyleUrlOptions): String {
