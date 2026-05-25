@@ -73,7 +73,7 @@ publishing {
             }
         }
 
-        // Maven Central (when Sonatype account is ready)
+        // Maven Central staging.
         maven {
             name = "MavenCentral"
             val releasesUrl = uri("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/")
